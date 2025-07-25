@@ -12,7 +12,7 @@ st.markdown("<p style='text-align: center; font-size: 18px;'>An interactive dash
 st.markdown("---")
 
 # Load dataset
-df = pd.read_csv("C:/Users/NITI/OneDrive/Desktop/Data Analyst project/sales_data.csv", encoding='latin1')
+df = pd.read_csv("sales_data.csv", encoding='latin1')
 df['Order Date'] = pd.to_datetime(df['Order Date'])
 df['Month'] = df['Order Date'].dt.to_period('M').astype(str)
 
