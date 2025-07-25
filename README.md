@@ -38,6 +38,6 @@ Project Structure
 Retail-Sales-Dashboard/
 │
 ├── app.py                  # Main Streamlit application
-├── superstore_data.csv     # Dataset used
+├── sales_data.csv          # Dataset used
 ├── requirements.txt        # Dependencies
 └── README.md               # Project overview and instructions
